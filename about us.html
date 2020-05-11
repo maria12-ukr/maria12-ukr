@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nike.JUST DO IT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+    
+}
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}  
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+}  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+</style>
+
+<style>
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  width:1550px;
+} 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+} 
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+ }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+  <div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>A team that's empowered,diverse and inclusive.</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="about us.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://answear.ua/p/nike-398-b.html">Magazine</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="response.html">Response</a>
+        </li>  
+    </ul>
+  </div>  
+</nav>
+
+
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://chiefexecutive.net/wp-content/uploads/2018/02/mark_parker_hi-res_crop_original_original.jpg" alt="Mark" width="100%" height="310">
+      <div class="container">
+        <h2>MARK PARKER</h2>
+        <p class="title">EXECUTIVE CHAIRMAN</p>
+        <p>Mark Parker served as NIKE, Inc. Chairman, President and CEO for 14 years and continues to serve as Executive Chairman. After running competitively at Penn State University, Parker joined Nike as one of our first footwear designers back in 1979. And he’s been at the center of Nike innovation ever since. For more than 30 years, he’s brought innovative concepts and engineering expertise into such vital roles as Vice President of Consumer Product Marketing, Vice President of Global Footwear and Co-President of the Nike Brand.Mark Parker led the way for Nike Air and a multitude of industry-breakthroughs in product design.</p>
+        <p>Mark Parker@.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.businessinsider.in/thumb/msid-50950808,width-640,resizemode-4,imgsize-5102496/4-john-slusher-executive-vice-president-of-global-sporks-marketing-at-nike.jpg" alt="Mike" width="100%" height="310">
+      <div class="container">
+        <h2>JOHN SLUSHER</h2>
+        <p class="title">EVP, GLOBAL SPORTS MARKETING</p>
+        <p>EVP of Nike Global Sports Marketing, John Slusher oversees all of Nike's global sports marketing efforts, including managing relationships with Nike’s top athlete, team, league and federation partners. Previously, John was Vice President of Sports Marketing for Asia Pacific and the Americas and led negotiation teams for many of Nike’s sports marketing agreements, including those for Brand Jordan and Converse. A graduate of Dartmouth College and the University of Southern California Law School, Slusher joined Nike in 1998 from O’Melveny & Myers, a private law firm located in Los Angeles.Slusher is a Nike insider with 21 years at the company.</p>
+        <p>John Slusher@.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://diginomica.com/sites/default/files/images/2017-09/Screen-Shot-2017-09-07-at-17.27.50.png" alt="John" width="100%" height="310">
+      <div class="container">
+        <h2>JOHN DONAHOE</h2>
+        <p class="title">PRESIDENT AND CEO</p>
+        <p>John Donahoe is President and Chief Executive Officer of NIKE, Inc. Before joining Nike as CEO in January 2020, Donahoe had served on Nike’s Board of Directors since 2014. Previously he was president and CEO for ServiceNow and eBay, and continues to serve as Chairman of the Board at PayPal. Earlier in his career, he worked for Bain & Company for almost 20 years, becoming the firm’s CEO in 1999. Donahoe will lead the continued growth of the Nike Brand as well as NIKE, Inc.'s global business portfolio, which includes Jordan Brand and Converse Inc. He received an undergraduate degree from Dartmouth College and an MBA from Stanford Business School.</p>
+        <p>John Danahoe@.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+ <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-- Footer -->
+  <div id="grad1" class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-xs-4" >
+
+        <p style="color: white">@Levitskaya Maria</p>
+        <p style="color: white">Our contacts: +44(0)2876673154<br> email: europe.nike@gmail.com<br></p>
+      </div>
+      <div class="col-md-4 col-xs-4" ><p style="color: #b3d4fc">Follow us</p>
+
+        <!-- Add font awesome icons -->
+<a href="https://www.facebook.com/nike/" class="fa fa-facebook"></a>
+<a href="https://www.nike.com/gb/" class="fa fa-google"></a>
+<a href="https://www.instagram.com/nike/?hl=ru" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/user/nike?hl=ru" class="fa fa-youtube"></a>
+</div>
+
+
+
+</body>
+</html>
